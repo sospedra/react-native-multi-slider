@@ -1,6 +1,6 @@
 {
   "name": "reslider",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pure JS slider component with multiple markers for React Native",
   "main": "lib/Slider.js",
   "scripts": {
