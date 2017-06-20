@@ -2,10 +2,11 @@
   "name": "reslider",
   "version": "1.0.0",
   "description": "Pure JS slider component with multiple markers for React Native",
-  "main": "Slider.js",
+  "main": "lib/Slider.js",
   "scripts": {
     "start": "node_modules/react-native/packager/packager.sh",
-    "open:xcode": "open iOS/Slider.xcodeproj"
+    "open:xcode": "open iOS/Slider.xcodeproj",
+    "build": "babel Slider.js -d lib"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/sospedra/react-native-multi-slider/issues"
   },
-  "homepage": "https://github.com/sospedra/react-native-multi-slider#readme"
+  "homepage": "https://github.com/sospedra/react-native-multi-slider#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "react-native": "^0.45.1"
+  }
 }

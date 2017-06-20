@@ -10,7 +10,7 @@ var {
   Image
 } = ReactNative;
 
-var MultiSlider  = require('./Slider.js');
+var MultiSlider  = require('./lib/Slider.js');
 var customMarker = require('./customMarker.js');
 
 var Slider = React.createClass({
