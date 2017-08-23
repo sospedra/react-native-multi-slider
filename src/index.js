@@ -2,9 +2,7 @@
 
 var React = require('react');
 var ReactNative = require('react-native');
-var {
-  PropTypes
-} = React;
+var PropTypes = require('prop-types');
 var {
   StyleSheet,
   PanResponder,
@@ -14,8 +12,6 @@ var {
 
 var converter = require('./converter.js');
 var mockProps = require('./mockProps.js');
-
-
 
 var sliderProps = {
   values: PropTypes.arrayOf(PropTypes.number),

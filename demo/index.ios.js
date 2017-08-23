@@ -1,6 +1,7 @@
 'use strict';
 
 var ReactNative = require('react-native');
+var createClass = require('create-react-class');
 var {
   AppRegistry,
   StyleSheet,
@@ -10,10 +11,10 @@ var {
   Image
 } = ReactNative;
 
-var MultiSlider  = require('./lib/Slider.js');
+var MultiSlider  = require('./lib/index.js');
 var customMarker = require('./customMarker.js');
 
-var Slider = React.createClass({
+var Slider = createClass({
 
   getInitialState: function () {
     return {

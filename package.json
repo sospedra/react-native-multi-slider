@@ -3,10 +3,6 @@
   "version": "1.2.2",
   "description": "Pure JS slider component with multiple markers for React Native",
   "main": "lib/index.js",
-  "scripts": {
-    "start": "./node_modules/react-native/packager/packager.sh",
-    "build": "babel src -d lib"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sospedra/react-native-multi-slider.git"
@@ -27,10 +23,21 @@
     "url": "https://github.com/sospedra/react-native-multi-slider/issues"
   },
   "homepage": "https://github.com/sospedra/react-native-multi-slider#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
-    "react-native": "^0.45.1"
+    "react-native": "^0.47.2"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.0",
+    "prop-types": "^15.5.10"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
   }
 }
