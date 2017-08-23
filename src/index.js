@@ -40,7 +40,7 @@ var sliderProps = {
   pressedMarkerStyle: View.propTypes.style
 };
 
-var Slider = React.createClass({
+var Slider = createClass({
 
   propTypes: sliderProps,
 
