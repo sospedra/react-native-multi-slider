@@ -8,6 +8,7 @@ var {
   StyleSheet,
   PanResponder,
   View,
+  ViewPropTypes,
   TouchableHighlight
 } = ReactNative;
 
@@ -33,12 +34,12 @@ var sliderProps = {
 
   optionsArray: PropTypes.array,
 
-  containerStyle: View.propTypes.style,
-  trackStyle: View.propTypes.style,
-  selectedStyle: View.propTypes.style,
-  unselectedStyle: View.propTypes.style,
-  markerStyle: View.propTypes.style,
-  pressedMarkerStyle: View.propTypes.style
+  containerStyle: ViewPropTypes.style,
+  trackStyle: ViewPropTypes.style,
+  selectedStyle: ViewPropTypes.style,
+  unselectedStyle: ViewPropTypes.style,
+  markerStyle: ViewPropTypes.style,
+  pressedMarkerStyle: ViewPropTypes.style
 };
 
 var Slider = createClass({
