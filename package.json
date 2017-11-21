@@ -38,6 +38,7 @@
     "prop-types": "^15.5.10"
   },
   "scripts": {
+    "prepublish": "npm run build",
     "build": "babel src -d lib"
   }
 }
